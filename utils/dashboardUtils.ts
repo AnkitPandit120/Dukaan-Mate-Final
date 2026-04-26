@@ -21,6 +21,7 @@ export const getSlowMovingInventory = (stock: StockItem[], sales: Sale[]) => {
     const thirtyDaysAgo = new Date();
     thirtyDaysAgo.setDate(thirtyDaysAgo.getDate() - 30);
 
+    
     const recentSalesItems = new Set(
         sales
             .filter(sale => new Date(sale.date) >= thirtyDaysAgo)

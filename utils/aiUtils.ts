@@ -23,6 +23,7 @@ export const generateNotifications = (stock: StockItem[]): Notification[] => {
             itemId: item.id,
             itemName: item.itemName,
         });
+        
     });
 
     // Near expiry notifications (within 7 days)
