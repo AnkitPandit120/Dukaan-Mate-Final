@@ -110,4 +110,4 @@ This project is licensed under the MIT License.
 
 ---
 
-*Built with ❤️ for small businesses.*
+*Built with ❤️ for small businesses*
