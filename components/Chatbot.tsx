@@ -150,6 +150,7 @@ const Chatbot: React.FC = () => {
                             result: `Successfully added ${args.quantity} units of ${args.itemName} to stock.`
                         }
                     }
+                    
                 };
                 
                 historyForNextCall.push({ role: 'function', parts: [functionResponsePart] });

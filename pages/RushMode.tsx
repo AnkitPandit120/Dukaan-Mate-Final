@@ -28,6 +28,7 @@ const blobToBase64 = (blob: Blob): Promise<string> => {
 };
 
 
+
 const RushMode: React.FC = () => {
     const { addSale } = useData();
     const { t } = useLanguage();

@@ -28,6 +28,7 @@ const QuickAccessButton: React.FC<{ to: string, icon: React.ElementType, label: 
   </Link>
 );
 
+
 const InsightItem: React.FC<{ item: string; value?: string | number; subtext?: string; color?: string; }> = ({ item, value, subtext, color = 'blue' }) => (
     <li className={`flex items-center justify-between text-sm text-gray-800 dark:text-gray-100 bg-gray-100 dark:bg-gray-700 p-2.5 rounded-md`}>
         <div>

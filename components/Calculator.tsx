@@ -125,6 +125,7 @@ const Calculator: React.FC = () => {
 
           <button onClick={() => handleButtonClick('0')} className="col-span-2 bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 font-bold py-3 rounded-md transition-colors">0</button>
           <button onClick={() => handleButtonClick('.')} className="bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 font-bold py-3 rounded-md transition-colors">.</button>
+          
         </div>
       </div>
     </div>

@@ -29,6 +29,7 @@ export const locales = {
     reportsAndAnalytics: "Reports & Analytics",
     tutorials: "Tutorials & Help",
     
+    
     // Login Page
     signInToAccount: "Sign in to your account",
     createAccount: "Create a new account",

@@ -50,6 +50,7 @@ const HomeRedirect = () => {
   return <Navigate to="/dashboard" replace />;
 };
 
+
 function App() {
   return (
     <ThemeProvider>

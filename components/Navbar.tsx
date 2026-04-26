@@ -21,6 +21,7 @@ const SyncStatus: React.FC<{ online: boolean }> = ({ online }) => {
                 {online ? <Icons.Cloud className="h-6 w-6" /> : <Icons.CloudOff className="h-6 w-6" />}
                 {online && <Icons.Sync className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 h-3.5 w-3.5 text-white sync-animate" />}
             </div>
+            
             <span className="hidden sm:inline">{online ? t('synced') : t('offline')}</span>
         </div>
     );

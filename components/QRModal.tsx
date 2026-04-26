@@ -31,6 +31,7 @@ const QRModal: React.FC<QRModalProps> = ({ onClose }) => {
           </div>
         )}
       </div>
+      
     </div>
   );
 };

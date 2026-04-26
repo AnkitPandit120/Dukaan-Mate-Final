@@ -31,6 +31,7 @@ const AdminPanel: React.FC = () => {
     const { t } = useLanguage();
     const [activeTab, setActiveTab] = useState<'dashboard' | 'shops' | 'issues'>('dashboard');
     
+    
     // Data fetching
     const [users, setUsers] = useState<User[]>(() => {
         const storedUsers = JSON.parse(localStorage.getItem('dukaan-users') || '[]');

@@ -48,6 +48,7 @@ const Sidebar: React.FC<SidebarProps> = ({ sidebarOpen, setSidebarOpen }) => {
       <span className="mx-4 font-medium">{label}</span>
     </NavLink>
   );
+  
 
   return (
     <>

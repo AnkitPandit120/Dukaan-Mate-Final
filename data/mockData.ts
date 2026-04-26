@@ -33,6 +33,7 @@ export const mockPayments: Payment[] = [
   { id: 'p4', name: 'Local Farm', amount: 2500, status: PaymentStatus.Pending, date: formatDate(new Date(new Date().setDate(today.getDate() - 2))), type: 'supplier' },
 ];
 
+
 export const mockExpenses: Expense[] = [
   { id: 'e1', category: 'Rent', amount: 15000, date: formatDate(new Date(today.getFullYear(), today.getMonth(), 1)) },
   { id: 'e2', category: 'Utilities', amount: 3500, note: 'Electricity bill', date: formatDate(new Date(new Date().setDate(today.getDate() - 10))) },

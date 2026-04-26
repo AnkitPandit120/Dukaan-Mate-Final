@@ -24,6 +24,7 @@ export interface Sale {
   date: string; // ISO 8601 format date string
 }
 
+
 export interface Expense {
   id: string;
   category: string;

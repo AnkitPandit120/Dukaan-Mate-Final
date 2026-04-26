@@ -30,6 +30,7 @@ const Payments: React.FC = () => {
     closeModal();
   };
 
+  
   const handleQrUpload = (event: React.ChangeEvent<HTMLInputElement>) => {
     const file = event.target.files?.[0];
     if (file) {

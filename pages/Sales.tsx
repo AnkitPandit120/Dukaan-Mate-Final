@@ -20,6 +20,7 @@ const SalesForm: React.FC<{ onAddSale: (sale: Omit<Sale, 'id' | 'date'>) => void
     }
   };
   
+  
   return (
     <form onSubmit={handleSaleSubmit} className="grid grid-cols-1 md:grid-cols-4 gap-4 items-end">
       <div className="md:col-span-2">

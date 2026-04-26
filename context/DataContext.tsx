@@ -29,6 +29,7 @@ export const DataProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
     const { user } = useAuth();
     const userKey = user ? user.id : 'guest';
 
+    
     const [sales, setSales] = useState<Sale[]>([]);
     const [expenses, setExpenses] = useState<Expense[]>([]);
     const [stock, setStock] = useState<StockItem[]>([]);

@@ -28,6 +28,7 @@ const Login: React.FC = () => {
   const { login } = useAuth();
   const { t } = useLanguage();
 
+  
   const handleDemoLogin = () => {
     const demoUser: User = { 
         id: 'demo-user', 

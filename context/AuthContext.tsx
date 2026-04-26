@@ -28,6 +28,7 @@ export const AuthProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
       } else {
         localStorage.removeItem('dukaan-user');
       }
+      
     } catch (error) {
       console.error("Failed to set user in localStorage", error);
     }

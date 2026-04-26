@@ -28,6 +28,7 @@ const Stock: React.FC = () => {
         setEditingItem(null);
     };
 
+    
     const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
         const { name, value } = e.target;
         setFormState(prev => ({ ...prev, [name]: name === 'quantity' || name === 'price' ? parseFloat(value) || 0 : value }));

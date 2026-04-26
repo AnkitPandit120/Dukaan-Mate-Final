@@ -28,6 +28,7 @@ const Reports: React.FC = () => {
         dataMap.set(dateStr, { date: new Date(dateStr).toLocaleDateString('en-US', { month: 'short', day: 'numeric' }), sales: 0, expenses: 0, profit: 0 });
     }
 
+    
     sales.forEach(sale => {
       const saleDateStr = new Date(sale.date).toISOString().split('T')[0];
       if (dataMap.has(saleDateStr)) {

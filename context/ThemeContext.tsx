@@ -26,6 +26,7 @@ export const ThemeProvider: React.FC<{ children: ReactNode }> = ({ children }) =
     console.log("Dark mode is currently disabled.");
   };
 
+  
   return (
     <ThemeContext.Provider value={{ theme, toggleTheme }}>
       {children}

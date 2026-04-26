@@ -23,6 +23,7 @@ const NotificationIcon: React.FC<{ type: NotificationType }> = ({ type }) => {
     }
 };
 
+
 const NotificationCenter: React.FC<NotificationCenterProps> = ({ notifications, onClose }) => {
     const { t } = useLanguage();
     return (

@@ -24,6 +24,7 @@ const FAQItem: React.FC<FAQItemProps> = ({ question, answer }) => {
   );
 };
 
+
 const Tutorials: React.FC = () => {
     const { t } = useLanguage();
     const faqs = [
